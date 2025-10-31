@@ -1,0 +1,44 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+drizzle/
+
+# Uploaded or temporary files
+uploads/
+tmp/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Go build artifacts
+worker/bin/
+*.exe
+*.out
+*.test
+
+# Coverage / testing
+coverage/
+*.lcov
+
+# TypeScript (if you ever add it)
+*.tsbuildinfo
+
+# OS-specific
+*.swp
